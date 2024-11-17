@@ -1,6 +1,6 @@
 # Epilepsy Detection for EEG signals using Time-Frequency Analysis and Network Metrics
 
-Project done as part of the course Dynamical Processes in Complex Networks at IIIT Hyderabad.
+Project done as part of a team for the course Dynamical Processes in Complex Networks at IIIT Hyderabad.
 
 ## Introduction
 Epilepsy is a chronic neurological disorder characterized by recurrent seizures, which are abnormal
@@ -8,22 +8,8 @@ electrical activities in the brain. Electroencephalography (EEG) is a widely use
 for monitoring brain activity and diagnosing epilepsy.
 However, accurate and automated detection of epilepsy from EEG signals remains a challenging task due to the complex and dynamic nature of brain signals
 
-
-Graph signal processing (GSP) is a promising approach for EEG-based epilepsy detection, leveraging
-the brain’s functional connectivity structure. We review recent advancements in GSP for epilepsy
-detection, including graph-based construction of brain networks, representation of EEG as graph signals,
-and graph-based techniques for feature extraction and classification. We use time-frequency based
-methods like S-Transform and Single Frequency Filtering (SFF) to extract features from the theta-band
-oscillations in the EEG signal, which are further fed to a graph learning module, to learn and process the
-connectivity matrices.
-
-These connectivity matrices form the features for a classifier, here, a Convolutional Neural Network
-(CNN). Furthermore, we highlight the advantages of GSP in epilepsy detection, including its ability to
-capture the spatial and temporal dynamics of EEG signals.
-
-We conclude by emphasizing the potential of GSP and S-Transform as promising tools for improving
-the accuracy and efficiency of epilepsy detection from EEG signals, which could ultimately aid in the
-early diagnosis and treatment of epilepsy patients
+We explore the potential of GSP and S-Transform as promising tools for improving
+the accuracy and efficiency of epilepsy detection from EEG signals. 
 
 ## Objective
 Classification(Detection) Task - Given a small chunk of time-series data corresponding to electrodes.
